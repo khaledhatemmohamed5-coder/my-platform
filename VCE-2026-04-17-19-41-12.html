@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصتي الاحترافية</title>
+    <style>
+        /* دي الألوان والخلفية المتدرجة زي التطبيقات العالمية */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* كارت تسجيل الدخول */
+        .login-container {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px 30px;
+            border-radius: 24px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+            width: 85%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .logo-circle {
+            width: 80px;
+            height: 80px;
+            background: #764ba2;
+            border-radius: 50%;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(118, 75, 162, 0.4);
+        }
+
+        h2 { color: #2d3436; margin: 0 0 10px 0; font-size: 24px; }
+        p { color: #636e72; font-size: 14px; margin-bottom: 30px; }
+
+        /* تجميل خانات الكتابة */
+        .input-group {
+            margin-bottom: 20px;
+            text-align: right;
+        }
+
+        input {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #eee;
+            border-radius: 12px;
+            font-size: 16px;
+            transition: 0.3s;
+            outline: none;
+            box-sizing: border-box;
+        }
+
+        input:focus {
+            border-color: #764ba2;
+            background-color: #fff;
+            box-shadow: 0 0 8px rgba(118, 75, 162, 0.2);
+        }
+
+        /* الزرار الاحترافي */
+        button {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(to left, #667eea, #764ba2);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+            box-shadow: 0 10px 20px rgba(118, 75, 162, 0.3);
+        }
+
+        button:active {
+            transform: scale(0.98);
+        }
+
+        .signup-text {
+            margin-top: 25px;
+            font-size: 14px;
+            color: #636e72;
+        }
+
+        .signup-text a {
+            color: #764ba2;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-container">
+    <div class="logo-circle">R</div> <h2>تسجيل الدخول</h2>
+    <p>تعلم بذكاء.. ابدأ رحلة نجاحك الآن</p>
+    
+    <div class="input-group">
+        <input type="text" placeholder="رقم الموبايل أو البريد">
+    </div>
+    
+    <div class="input-group">
+        <input type="password" placeholder="كلمة المرور">
+    </div>
+    
+    <button>دخول للمنصة</button>
+    
+    <div class="signup-text">
+        جديد هنا؟ <a href="#">إنشاء حساب مجاني</a>
+    </div>
+</div>
+
+</body>
+</html>
